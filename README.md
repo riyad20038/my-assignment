@@ -1,8 +1,22 @@
-# my-assignment
+# Design a Network Architecture
+## Project Requirements:
+Design a network architecture for a platform that will serve as a real estate finder. People will come and search for houses, bid on them, chat with the buyer/seller. The platform will fetch data from many 3rd party services for different countries and cities. The networking architecture must support 2 regions and 2 availability zones. Developers will be using the network to do development work as well.
 
-## Diagrams:
+## Key checkpoints:
+1. Design the diagram using any free online tools like draw.io, lucid chart, excalidraw.
+2. The diagram must be added as a picture in the readme file in the PR
 
-## Assumptions :
+3. List all assumptions you are making for the design
+
+4. Write a detailed 200–500-word summary with the following 4 sections: project details, architecture decisions, reasoning and networking components used and their use case.
+
+5. Make cost estimates for different number of users (concurrent 100, 10000, 100000 user, monthly 1 lac, 10 lacs and 100 million user) and data component wise. There should be a table.
+
+## Solution:
+### **Diagrams:**
+![Network architecture drawio](https://github.com/user-attachments/assets/cb1f3dec-f16b-4239-b0ea-0b473cc8967f)
+
+### Assumptions :
 1. **Platform Overview:** Users search, bid on properties, and chat with buyers/sellers. The platform integrates with third-party services for property data across countries and cities.
 
 2. **Regions and Availability Zones:** Supports 2 regions with 2 availability zones (AZ) each for high availability and disaster recovery.
